@@ -26,6 +26,7 @@ function App() {
 
   return (
     <>
+    <h1>Kalvium form</h1>
       <form className='registration-form' onSubmit={handleSubmit}>
       <div>
         {validate ? <h3>Registration Successfull</h3>:""}
